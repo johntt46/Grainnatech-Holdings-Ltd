@@ -6,10 +6,11 @@ Source archive: **`D:\Granatech Logos New Desings 2026.zip`** (extracted into th
 
 | File | Role |
 |------|------|
-| `canonical/nav.png` | Navbar mark (`index.html` / `grainnatech_v3.html`) |
-| `canonical/hero.png` | Hero trademark image |
+| **`canonical/official-logo.png`** | **Authoritative company mark** — used by the public **coming soon** `index.html` (synced from full build `03_Infrastructure_Build_Code/website/assets/logos-2026/canonical/`). |
+| `canonical/nav.png` | Navbar mark (`grainnatech_v3.html` etc., if present) |
+| `canonical/hero.png` | Hero trademark image (if present) |
 
-These were copied from the first two PNGs in the zip (by timestamp in the original filenames). If a different variant should appear in nav or hero, **replace `nav.png` or `hero.png`** in `canonical/` (keep the same filenames).
+To rebrand the live site logo, **replace `canonical/official-logo.png`** (keep the filename). The coming-soon page loads it via relative URL, not base64.
 
 ## Full pack
 
